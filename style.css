@@ -259,8 +259,10 @@ padding-left: 15px;
     .anuncio-vaga-foto{
     display: flex;
     justify-content: center;
-    padding: 30px;
-    width: 30rem;
+    }
+
+    .foto-empresa{
+        width: 20rem;
     }
 
     .metricas{
@@ -269,25 +271,30 @@ padding-left: 15px;
 
     .tipo-vaga{
     padding-top: 32px;
-    padding-left: 30px;
+    padding-left: 3px;
     }
     
     .anuncio-vaga-frase{
-    font-size: 24px;
+    font-size: 15px;
     }
 
     .anuncio-vagas-vagas{
-    padding-left: 50px
+    padding-left: 10px
     }
 
     .anuncio-vaga-info{
     border: 1px solid #a8a6a6;
     border-radius: 16px;
-    width: 400px;
-    height: 136px;
-    margin-top: 24px;
+    width: 265px;
+    height: 135px;
+    margin-top: 8px;
     }
 
+    .comentario-conteudo{
+    font-size: 10px;
+    font-weight: 500;
+    }
+        
     .campo-email-footer{
     width: 292px;
     height: 40px;
@@ -296,4 +303,23 @@ padding-left: 15px;
     padding-left: 15px;
     }
 
+    .footer-frase{
+        font-size: 15px;
+    }
+
+    .footer-frase-paragrafo{
+        font-size: 10px;
+    }
+
+    .campo-email-footer{
+    width: 150px;
+    height:40px;
+    border-radius: 10px;
+    border: #10182854 solid 1px;
+    padding-left: 15px;
+    }
+
+    .copyright{
+        padding-top: 15px;
+    }
   }
