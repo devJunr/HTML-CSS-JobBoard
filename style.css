@@ -105,16 +105,20 @@ color: #3A404E;
 margin: 50px;
 }
 
-.anuncio-vagas-abertas{
+.vagas-aberta-frase{
 display: flex;
 justify-content: center;
-align-items: center;
+}
+
+.anuncio-vagas-abertas{
 color: #8E2424;
 text-align: center;
 background-color: #8e24245d;
 border-radius: 16px;
+width: 8rem;
+padding:3px;
 }
-
+  
 .anuncio-vaga-frase{
 display: flex;
 color: #3A404E;
@@ -130,10 +134,10 @@ justify-content: center;
 font-size: 20px;
 }
 
-.anuncio-vagas img{
-padding: 64px;
+.anuncio-vaga-foto{
 display: flex;
 justify-content: center;
+padding: 30px;
 }
 
 .tipo-vaga{
@@ -167,3 +171,129 @@ font-size: 16px;
 color: #667085;
 font-weight: 500;
 }
+
+.comentarios-colaboradores{
+display: flex;
+flex-direction: column;
+padding-top: 64px;
+padding-left: 5rem;
+padding-right: 5rem;
+text-align: center;
+background-color: #C3191908;
+}
+
+.comentario-conteudo{
+font-size: 36px;
+font-weight: 500;
+}
+
+.comentarios-colaboradores-frase{
+display: flex;
+justify-content: center;
+color: #8E2424;
+padding: 30px;
+}
+
+.comentarios-colaboradores-avatar{
+display: flex;
+justify-content: center;
+padding-top: 15rem;
+}
+
+.foto-colaborador{
+width: 56px;
+align-self: center;
+padding-top: 16px;
+}
+
+.funcao-colab{
+color: #3A404E;
+font-weight: 400;
+padding-top: 4px;
+}
+
+.nome-colab{
+font-weight: 500;
+}
+
+.footer-pagina{
+padding-top: 160px;
+display: flex;
+align-items: center;
+flex-direction: column;
+background-color: #F9FAFB;
+}
+
+.footer-frase{
+font-weight: 600;
+font-size: 36px;
+text-align: center;
+}
+
+.footer-frase-paragrafo{
+padding: 10px;
+}
+
+.cad-email{
+padding: 30px;
+}
+
+.campo-email-footer{
+width: 492px;
+height: 40px;
+border-radius: 10px;
+border: #10182854 solid 1px;
+padding-left: 15px;
+}
+
+.copyright{
+    padding: 96px;
+    color: #98A2B3;
+}
+
+@media only screen and (max-width: 700px) {
+    .header-menu a{
+    display: none;
+    }
+    
+    .anuncio-vaga-foto{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    width: 30rem;
+    }
+
+    .metricas{
+    flex-direction:column ;
+    }
+
+    .tipo-vaga{
+    padding-top: 32px;
+    padding-left: 30px;
+    }
+    
+    .anuncio-vaga-frase{
+    font-size: 24px;
+    }
+
+    .anuncio-vagas-vagas{
+    padding-left: 50px
+    }
+
+    .anuncio-vaga-info{
+    border: 1px solid #a8a6a6;
+    border-radius: 16px;
+    width: 400px;
+    height: 136px;
+    margin-top: 24px;
+    }
+
+    .campo-email-footer{
+    width: 292px;
+    height: 40px;
+    border-radius: 10px;
+    border: #10182854 solid 1px;
+    padding-left: 15px;
+    }
+
+  }
